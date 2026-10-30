@@ -2,6 +2,8 @@
 
 Dashboard Power BI phân tích **rủi ro tín dụng và lợi nhuận** của danh mục cho vay LendingClub giai đoạn **2010–2017** (1,76 triệu khoản vay, 26 tỷ USD giải ngân). Dữ liệu thô 1,3 GB được Python gộp thành một *segment cube* nhẹ (27 MB). Power BI chỉ đọc cube này, nên file nhẹ và refresh nhanh.
 
+**Xem nhanh không cần Power BI:** [docs/LendingClub_Portfolio_Dashboard.pdf](docs/LendingClub_Portfolio_Dashboard.pdf) (bản export 6 trang)
+
 **Công cụ:** Python (pandas) · Jupyter · Power BI Desktop (định dạng PBIP, model TMDL) · DAX
 
 <!--
