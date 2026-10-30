@@ -1,0 +1,6 @@
+/// Thư mục chứa lendingclub_segment_cube.csv (kết thúc bằng dấu \). Sửa trong Transform data → Edit parameters sau khi clone.
+expression DataFolder = "Y:\Data Analyst\Data Work\Lending Club\lendingclub-portfolio-dashboard\outputs\lendingclub_dashboard\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 51a29063-8033-4aa0-ab8b-60c921c90d26
+
+	annotation PBI_ResultType = Text
+

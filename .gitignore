@@ -1,0 +1,23 @@
+# Dữ liệu gốc LendingClub (1–2 GB) – tải từ Kaggle, xem README
+data/raw/*
+!data/raw/.gitkeep
+
+# Snapshot JSON (>100 MB, Power BI không dùng)
+outputs/lendingclub_dashboard/data/dashboard_snapshot.json
+
+# Power BI: cache dữ liệu và cài đặt máy cục bộ
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.jupyter_runtime/
+.venv/
+venv/
+
+# Hệ điều hành
+Thumbs.db
+desktop.ini
+.DS_Store

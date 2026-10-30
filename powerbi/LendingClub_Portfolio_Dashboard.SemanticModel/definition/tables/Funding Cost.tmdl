@@ -1,0 +1,15 @@
+/// Scenario parameter for annual funding cost rate. Default measure fallback is 4.0%.
+table 'Funding Cost'
+	lineageTag: e50a210a-9ccc-4707-b248-028463335ad2
+
+	column 'Funding Cost Rate'
+		dataType: double
+		formatString: 0.0%
+		lineageTag: a6071f61-1e1d-412d-a530-5f3b8016aa36
+		summarizeBy: none
+		sourceColumn: [Value]
+
+	partition 'Funding Cost' = calculated
+		mode: import
+		source = GENERATESERIES(0, 0.10, 0.005)
+

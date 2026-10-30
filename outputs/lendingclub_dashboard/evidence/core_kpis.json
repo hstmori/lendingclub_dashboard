@@ -1,0 +1,16 @@
+{
+  "total_loans": 1757149,
+  "total_funded_amount": 25991364125.0,
+  "average_funded_amount": 14791.781530763754,
+  "matured_loans": 1282503,
+  "default_loans": 258839,
+  "charged_off_loans": 258806,
+  "matured_default_rate": 0.2018233095751043,
+  "charged_off_rate": 0.2017975786411416,
+  "weighted_apr": 0.13580036838639767,
+  "default_exposure_proxy": 2853937690.4800005,
+  "lgd_proxy": 0.8882540732918517,
+  "recovery_rate_proxy": 0.11189995616540664,
+  "expected_loss_rate_proxy": 0.17927037681532876,
+  "expected_loss_proxy": 4659481640.633167
+}

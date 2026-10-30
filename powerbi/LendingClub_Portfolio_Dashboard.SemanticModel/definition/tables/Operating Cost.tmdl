@@ -1,0 +1,15 @@
+/// Scenario parameter for operating cost rate. Default measure fallback is 1.0%.
+table 'Operating Cost'
+	lineageTag: c76494bd-522d-4383-85c0-5b352108fca6
+
+	column 'Operating Cost Rate'
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 7583b059-97b5-44ee-b55c-e434e41987a5
+		summarizeBy: none
+		sourceColumn: [Value]
+
+	partition 'Operating Cost' = calculated
+		mode: import
+		source = GENERATESERIES(0, 0.05, 0.0025)
+

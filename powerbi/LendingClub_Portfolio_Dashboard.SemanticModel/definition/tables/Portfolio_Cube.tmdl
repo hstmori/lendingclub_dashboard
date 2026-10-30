@@ -1,0 +1,630 @@
+/// Aggregated LendingClub portfolio cube prepared in Jupyter. Contains only analysis-ready fields; no raw accepted-loans table.
+table Portfolio_Cube
+	lineageTag: 110e2ed8-5d1b-4a52-9600-8204452e1d95
+
+	measure 'Total Loans' = SUM ( Portfolio_Cube[loan_count] )
+		formatString: #,0
+		displayFolder: KPI
+		lineageTag: 857edaf2-6d46-4b6d-ad95-e2ed711b0007
+
+	measure 'Total Funded Amount' = SUM ( Portfolio_Cube[funded_amount] )
+		formatString: \$#,0
+		displayFolder: KPI
+		lineageTag: c98cdabd-067d-43b4-950e-e2914ba9d9b7
+
+	measure 'Average Loan Amount' = DIVIDE ( [Total Funded Amount], [Total Loans] )
+		formatString: \$#,0
+		displayFolder: KPI
+		lineageTag: ab231626-fa82-4857-8f1d-4a89dad8e536
+
+	measure 'Weighted APR' = DIVIDE ( SUM ( Portfolio_Cube[funded_x_apr] ), [Total Funded Amount] )
+		formatString: 0.00%
+		displayFolder: KPI
+		lineageTag: 3362de56-d7ac-4ea1-a548-c69f71773edd
+
+	/// PD: Default/Charged Off trên số khoản vay đã có outcome cuối cùng.
+	measure 'Matured Default Rate' = DIVIDE ( SUM ( Portfolio_Cube[default_count] ), SUM ( Portfolio_Cube[matured_count] ) )
+		formatString: 0.00%
+		displayFolder: Risk
+		lineageTag: b4419f17-efa7-443c-97d7-af3afa2b24fd
+
+	/// Tổn thất ròng sau recoveries trên exposure của các khoản default.
+	measure 'LGD Proxy' = DIVIDE ( SUM ( Portfolio_Cube[net_loss_proxy] ), SUM ( Portfolio_Cube[default_exposure_proxy] ) )
+		formatString: 0.00%
+		displayFolder: Risk
+		lineageTag: 8dcb1a08-7eb6-4997-a40f-dc0cb6d3cac2
+
+	measure 'Expected Loss Rate Proxy' = [Matured Default Rate] * [LGD Proxy]
+		formatString: 0.00%
+		displayFolder: Risk
+		lineageTag: cb83cd0a-92e0-4e45-9cfb-0512026b4a05
+
+	/// PD × LGD × EAD, với funded amount đại diện EAD.
+	measure 'Expected Loss Proxy' = [Expected Loss Rate Proxy] * [Total Funded Amount]
+		formatString: \$#,0
+		displayFolder: Risk
+		lineageTag: 97606932-8f67-45ac-8ea7-89b133e66fa2
+
+	measure 'Funding Cost Value' = SELECTEDVALUE ( 'Funding Cost'[Funding Cost Rate], 0.04 )
+		formatString: 0.0%
+		displayFolder: Profitability
+		lineageTag: bd908ea0-1122-41f2-b4f9-ef10b9eae065
+
+	measure 'Operating Cost Value' = SELECTEDVALUE ( 'Operating Cost'[Operating Cost Rate], 0.01 )
+		formatString: 0.0%
+		displayFolder: Profitability
+		lineageTag: 3c6c6054-8274-419f-b887-e402718f3df6
+
+	/// Lãi đóng góp mỗi năm trên dư nợ bình quân: (lãi đã thu − tổn thất ròng − chi phí vốn − chi phí vận hành) / balance-years.
+	measure 'Risk-Adjusted Contribution Rate Proxy' = DIVIDE ( [Contribution Amount], [Balance-Years Proxy] )
+		formatString: 0.00%
+		displayFolder: Profitability
+		lineageTag: 3f1deb10-67dd-457d-b5d5-1d4795327b9c
+
+	/// Tỷ lệ vỡ nợ trong 12 tháng đầu, chỉ tính khoản vay đã giải ngân đủ 12 tháng trước ngày chốt dữ liệu.
+	measure 'Default Rate 12M' = DIVIDE ( SUM ( Portfolio_Cube[default_12m_count] ), SUM ( Portfolio_Cube[seasoned_12m_count] ) )
+		formatString: 0.00%
+		displayFolder: Vintage Quality
+		lineageTag: 05c1684e-dbeb-4012-a241-e72a1b7da24f
+
+	measure 'Default Rate 24M' = DIVIDE ( SUM ( Portfolio_Cube[default_24m_count] ), SUM ( Portfolio_Cube[seasoned_24m_count] ) )
+		formatString: 0.00%
+		displayFolder: Vintage Quality
+		lineageTag: 0fed160b-9f58-4072-aa1e-f819cadca96e
+
+	measure 'Default Rate 36M' = DIVIDE ( SUM ( Portfolio_Cube[default_36m_count] ), SUM ( Portfolio_Cube[seasoned_36m_count] ) )
+		formatString: 0.00%
+		displayFolder: Vintage Quality
+		lineageTag: 9737f5a9-d4c3-448f-a338-7db55de588d7
+
+	measure 'Active Loans' = SUM ( Portfolio_Cube[current_count] ) + SUM ( Portfolio_Cube[late_count] )
+		formatString: #,0
+		displayFolder: Vintage Quality
+		lineageTag: 34635890-882f-4d9c-a80f-c6f1a4da6063
+
+	/// Tỷ lệ khoản đang trả bị trễ hạn (In Grace / Late); tín hiệu sớm cho vintage còn non.
+	measure 'Current Delinquency Rate' = DIVIDE ( SUM ( Portfolio_Cube[late_count] ), [Active Loans] )
+		formatString: 0.00%
+		displayFolder: Vintage Quality
+		lineageTag: 9de4c571-77f0-4189-8288-9d2be4f0301a
+
+	/// Tỷ lệ khoản trả hết sớm (≥ 3 tháng trước kỳ hạn) trong 24 tháng đầu, trên khoản đã giải ngân đủ 24 tháng; so sánh được giữa các vintage.
+	measure 'Prepayment Rate 24M' = DIVIDE ( SUM ( Portfolio_Cube[prepaid_24m_count] ), SUM ( Portfolio_Cube[seasoned_24m_count] ) )
+		formatString: 0.0%
+		displayFolder: Vintage Quality
+		lineageTag: f7f5498e-4032-43bd-91cf-f3d94c463f8f
+
+	/// Tỷ lệ khoản vỡ nợ có thoả thuận debt settlement.
+	measure 'Settlement Rate' = DIVIDE ( SUM ( Portfolio_Cube[settlement_count] ), SUM ( Portfolio_Cube[default_count] ) )
+		formatString: 0.0%
+		displayFolder: Vintage Quality
+		lineageTag: 65e30beb-ee7f-4a1d-aa36-c33c3edaf547
+
+	/// Recovery sau khi trừ phí thu hồi nợ.
+	measure 'Net Recovery Rate' = DIVIDE ( [Recoveries Amount] - SUM ( Portfolio_Cube[collection_fee_default] ), SUM ( Portfolio_Cube[default_exposure_proxy] ) )
+		formatString: 0.0%
+		displayFolder: Risk
+		lineageTag: 303e420b-5f10-4b39-b985-50fea7591e6b
+
+	measure 'Matured Balance-Years Proxy' =
+			SUMX (
+			    Portfolio_Cube,
+			    DIVIDE ( Portfolio_Cube[matured_interest] * Portfolio_Cube[matured_funded], Portfolio_Cube[matured_funded_x_apr] )
+			)
+		formatString: \$#,0
+		isHidden
+		displayFolder: Vintage Quality
+		lineageTag: dc956b25-6b06-40c8-9d12-c8139843cf55
+
+	/// Contribution chỉ trên các khoản đã có outcome cuối (Net Credit Loss vốn chỉ phát sinh ở khoản default, đều là matured).
+	measure 'Matured Contribution Amount' = SUM ( Portfolio_Cube[matured_interest] ) - [Net Credit Loss] - [Matured Balance-Years Proxy] * ( [Funding Cost Value] + [Operating Cost Value] )
+		formatString: \$#,0
+		displayFolder: Vintage Quality
+		lineageTag: 4e8d385b-a6ef-4878-8de3-c43a38f381b9
+
+	/// Cận dưới: chỉ tính khoản đã đóng. Với vintage non, khoản đã đóng phần lớn là vỡ nợ sớm nên con số bi quan; Contribution Margin là cận trên. Hai số hội tụ khi vintage chín.
+	measure 'Matured Contribution Margin' = DIVIDE ( [Matured Contribution Amount], SUM ( Portfolio_Cube[matured_funded] ) )
+		formatString: 0.00%
+		displayFolder: Vintage Quality
+		lineageTag: b491ff4c-1e27-4688-bb56-aa963d8f68b5
+
+	/// Giá trị mỗi bước trên 100 USD giải ngân (cùng cơ sở với các card USD); bước Contribution để trống vì waterfall tự vẽ cột Total.
+	measure 'Contribution Bridge Value' =
+			VAR _step = SELECTEDVALUE ( 'Contribution Bridge'[Bridge Step] )
+			VAR _funded = [Total Funded Amount]
+			RETURN
+			    SWITCH (
+			        _step,
+			        "Gross interest", DIVIDE ( [Gross Interest], _funded ) * 100,
+			        "Net credit loss", - DIVIDE ( [Net Credit Loss], _funded ) * 100,
+			        "Funding cost", - DIVIDE ( [Funding Cost Amount], _funded ) * 100,
+			        "Operating cost", - DIVIDE ( [Operating Cost Amount], _funded ) * 100
+			    )
+		formatString: #,0.00
+		displayFolder: Profitability
+		lineageTag: 5a1cacb4-bcf7-4a14-a4cb-6283392f707d
+
+	measure Recommendation =
+			VAR _contrib = [Risk-Adjusted Contribution Rate Proxy]
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _contrib ), BLANK (),
+			        NOT [Is Reliable Segment], "Chưa đủ dữ liệu",
+			        _contrib < 0, "Thắt chặt / dừng",
+			        _contrib < 0.02, "Theo dõi, định giá lại",
+			        "Duy trì / mở rộng"
+			    )
+		displayFolder: Profitability
+		lineageTag: a5abf0f2-a860-4453-9652-7ee8a230a80c
+
+	/// Lãi thực thu đến ngày dữ liệu (total_rec_int).
+	measure 'Gross Interest' = SUM ( Portfolio_Cube[realized_interest] )
+		formatString: \$#,0
+		displayFolder: Profitability
+		lineageTag: 6abcb481-ee4b-4c07-82c0-d739672eb22a
+
+	/// Tổn thất ròng sau recoveries đã phát sinh trên các khoản default.
+	measure 'Net Credit Loss' = SUM ( Portfolio_Cube[net_loss_proxy] )
+		formatString: \$#,0
+		displayFolder: Profitability
+		lineageTag: d3dba0b7-f390-4791-84a8-8471a25ba3d7
+
+	measure 'Recoveries Amount' = SUM ( Portfolio_Cube[recoveries_default] )
+		formatString: \$#,0
+		displayFolder: Risk
+		lineageTag: 6cfcf738-286d-46f7-8702-9938fe164016
+
+	measure 'Recovery Rate Proxy' = DIVIDE ( [Recoveries Amount], SUM ( Portfolio_Cube[default_exposure_proxy] ) )
+		formatString: 0.0%
+		displayFolder: Risk
+		lineageTag: fe6d1586-88df-4e1b-9f3f-c672ad57c999
+
+	/// Tỷ lệ khoản vay đã có outcome cuối; thấp nghĩa là PD của vintage đó chưa đáng tin.
+	measure 'Maturity Coverage' = DIVIDE ( SUM ( Portfolio_Cube[matured_count] ), [Total Loans] )
+		formatString: 0.0%
+		displayFolder: Risk
+		lineageTag: fca8fe1d-aaf8-4467-8ed8-846f58aed9d8
+
+	/// Dư nợ bình quân × số năm, suy ra từ lãi đã thu / APR của từng dòng; dùng làm cơ sở tính chi phí vốn và vận hành.
+	measure 'Balance-Years Proxy' =
+			SUMX (
+			    Portfolio_Cube,
+			    DIVIDE ( Portfolio_Cube[realized_interest] * Portfolio_Cube[funded_amount], Portfolio_Cube[funded_x_apr] )
+			)
+		formatString: \$#,0
+		isHidden
+		displayFolder: Profitability
+		lineageTag: 8a08a867-12aa-46b7-9f90-ec854219913a
+
+	measure 'Funding Cost Amount' = [Balance-Years Proxy] * [Funding Cost Value]
+		formatString: \$#,0
+		displayFolder: Profitability
+		lineageTag: b645b5d3-7bed-4f6b-aee2-63c531932203
+
+	measure 'Operating Cost Amount' = [Balance-Years Proxy] * [Operating Cost Value]
+		formatString: \$#,0
+		displayFolder: Profitability
+		lineageTag: 4674eae9-6ce2-40f5-9be4-94e937ecba2e
+
+	measure 'Contribution Amount' = [Gross Interest] - [Net Credit Loss] - [Funding Cost Amount] - [Operating Cost Amount]
+		formatString: \$#,0
+		displayFolder: Profitability
+		lineageTag: b39391b9-e898-4a46-9103-3716105c0949
+
+	/// Lãi đóng góp trên tổng số tiền giải ngân (toàn vòng đời đến ngày dữ liệu).
+	measure 'Contribution Margin' = DIVIDE ( [Contribution Amount], [Total Funded Amount] )
+		formatString: 0.00%
+		displayFolder: Profitability
+		lineageTag: 1f036774-c560-491d-994f-b3a30e6a477f
+
+	measure 'Matured Loans' = SUM ( Portfolio_Cube[matured_count] )
+		formatString: #,0
+		displayFolder: Risk
+		lineageTag: a1bd77eb-f244-47f8-9ffc-1e7c2c18ed6e
+
+	/// Tổn thất ròng mỗi năm trên dư nợ bình quân (cùng cơ sở với Contribution Rate).
+	measure 'Annualized Net Loss Rate' = DIVIDE ( [Net Credit Loss], [Balance-Years Proxy] )
+		formatString: 0.00%
+		displayFolder: Risk
+		lineageTag: 9039a331-b2f6-4d4f-90df-c10cb0c4f7cc
+
+	/// APR tối thiểu để hoà vốn: tổn thất ròng/năm + chi phí vốn + chi phí vận hành.
+	measure 'Break-even APR' = [Annualized Net Loss Rate] + [Funding Cost Value] + [Operating Cost Value]
+		formatString: 0.00%
+		displayFolder: Profitability
+		lineageTag: a5643401-b848-411a-b9b4-188ee61eab6b
+
+	measure 'Share of Funded' = DIVIDE ( [Total Funded Amount], CALCULATE ( [Total Funded Amount], ALLSELECTED ( Portfolio_Cube ) ) )
+		formatString: 0.00%
+		displayFolder: Action
+		lineageTag: 1852278c-6a68-4305-8714-ae3c546d429d
+
+	/// PD của phân khúc so với PD bình quân của phần đang chọn; > 1 là rủi ro hơn bình quân.
+	measure 'Risk Index' = DIVIDE ( [Matured Default Rate], CALCULATE ( [Matured Default Rate], ALLSELECTED ( Portfolio_Cube ) ) )
+		formatString: 0.00
+		displayFolder: Action
+		lineageTag: ce6b6442-cf45-491e-a59c-420169c128ad
+
+	/// Đủ dữ liệu để kết luận: ít nhất 200 khoản đã có outcome và coverage từ 60%.
+	measure 'Is Reliable Segment' = [Matured Loans] >= 200 && [Maturity Coverage] >= 0.6
+		isHidden
+		displayFolder: Action
+		lineageTag: 9a0527ce-5d4c-4394-8de9-e87b6fbd45e3
+
+	/// Số phân khúc (Grade × Term × Purpose × FICO × DTI) đủ dữ liệu và đang lỗ.
+	measure 'Loss Segments Count' =
+			VAR _seg =
+			    ADDCOLUMNS (
+			        SUMMARIZE (
+			            Portfolio_Cube,
+			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
+			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			        ),
+			        "@contrib", [Contribution Amount],
+			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
+			        "@funded", [Total Funded Amount],
+			        "@reliable", [Is Reliable Segment]
+			    )
+			RETURN
+			    COUNTROWS ( FILTER ( _seg, [@reliable] && [@rate] < 0 ) ) + 0
+		formatString: #,0
+		displayFolder: Action
+		lineageTag: 87ba1fc3-4d09-4c51-9b73-7a343ba0fdbe
+
+	/// Số tiền giải ngân nằm ở các phân khúc lỗ.
+	measure 'Funded in Loss Segments' =
+			VAR _seg =
+			    ADDCOLUMNS (
+			        SUMMARIZE (
+			            Portfolio_Cube,
+			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
+			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			        ),
+			        "@contrib", [Contribution Amount],
+			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
+			        "@funded", [Total Funded Amount],
+			        "@reliable", [Is Reliable Segment]
+			    )
+			RETURN
+			    SUMX ( FILTER ( _seg, [@reliable] && [@rate] < 0 ), [@funded] )
+		formatString: \$#,0
+		displayFolder: Action
+		lineageTag: 5819c451-d55f-496e-b506-49fe0ed7b9ef
+
+	measure 'Funded in Loss Segments %' = DIVIDE ( [Funded in Loss Segments], [Total Funded Amount] )
+		formatString: 0.0%
+		displayFolder: Action
+		lineageTag: 6c8ba90c-31b5-4c40-9928-46abac4c5350
+
+	/// Tổng Contribution âm của các phân khúc lỗ.
+	measure 'Loss from Loss Segments' =
+			VAR _seg =
+			    ADDCOLUMNS (
+			        SUMMARIZE (
+			            Portfolio_Cube,
+			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
+			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			        ),
+			        "@contrib", [Contribution Amount],
+			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
+			        "@funded", [Total Funded Amount],
+			        "@reliable", [Is Reliable Segment]
+			    )
+			RETURN
+			    SUMX ( FILTER ( _seg, [@reliable] && [@rate] < 0 ), [@contrib] )
+		formatString: \$#,0
+		displayFolder: Action
+		lineageTag: d5ee6430-96fe-4dea-bb08-3384f1c41c90
+
+	/// Contribution ước tính nếu dừng các phân khúc lỗ (chưa tính chi phí cố định không giảm).
+	measure 'Pro-forma Contribution' = [Contribution Amount] - [Loss from Loss Segments]
+		formatString: \$#,0
+		displayFolder: Action
+		lineageTag: 3565fff3-362f-4fc2-bb45-3f7d787ae38b
+
+	/// Tỷ lệ funded nằm ở phân khúc chưa đủ dữ liệu để kết luận.
+	measure 'Funded Low Confidence %' =
+			VAR _seg =
+			    ADDCOLUMNS (
+			        SUMMARIZE (
+			            Portfolio_Cube,
+			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
+			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			        ),
+			        "@contrib", [Contribution Amount],
+			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
+			        "@funded", [Total Funded Amount],
+			        "@reliable", [Is Reliable Segment]
+			    )
+			RETURN
+			    DIVIDE ( SUMX ( FILTER ( _seg, NOT [@reliable] ), [@funded] ), [Total Funded Amount] )
+		formatString: 0.0%
+		displayFolder: Action
+		lineageTag: 187fc7bd-309e-4e13-bf93-d274df317bb9
+
+	column vintage_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 5c8dbb3c-ca5a-4346-bda6-823fdd10edd2
+		summarizeBy: none
+		sourceColumn: vintage_year
+
+	column grade
+		dataType: string
+		lineageTag: c13092ef-4a3d-4bea-8edd-c7fa49b9d12c
+		sourceColumn: grade
+
+	column term
+		dataType: string
+		lineageTag: 1c7acb47-f347-4b07-86bf-99916a0f6f6f
+		sourceColumn: term
+
+	column purpose
+		dataType: string
+		lineageTag: cc03395d-8097-4461-9bd6-c0b1ef793089
+		sourceColumn: purpose
+
+	column fico_band
+		dataType: string
+		lineageTag: 40e80e30-e79d-4cc5-a383-80e38b85fead
+		sourceColumn: fico_band
+
+	column dti_band
+		dataType: string
+		lineageTag: c0a06b2f-1f49-4d9d-b004-5f27bcceffae
+		sourceColumn: dti_band
+
+	column application_type
+		dataType: string
+		lineageTag: 7d27413f-a030-4a39-8268-ddff85ceac07
+		sourceColumn: application_type
+
+	column home_ownership
+		dataType: string
+		lineageTag: 0e379d3e-9487-428e-b3d5-8a8c03e4d1f6
+		sourceColumn: home_ownership
+
+	column income_band
+		dataType: string
+		lineageTag: 483928f3-5870-417e-9471-a44319ae3e39
+		sourceColumn: income_band
+
+	column loan_count
+		dataType: int64
+		isHidden
+		lineageTag: b519a866-ada8-46ef-ab04-a7693a7392ae
+		sourceColumn: loan_count
+
+	column funded_amount
+		dataType: double
+		isHidden
+		lineageTag: 8e6c3bc5-bd1a-4840-b14d-72f5ba27aea1
+		sourceColumn: funded_amount
+
+	column loan_amount
+		dataType: double
+		isHidden
+		lineageTag: b435c8c9-f11e-4fb7-8644-1b362b91714a
+		sourceColumn: loan_amount
+
+	column funded_x_apr
+		dataType: double
+		isHidden
+		lineageTag: 335a1d61-6464-432e-b5ed-7242f0e4c13a
+		sourceColumn: funded_x_apr
+
+	column matured_count
+		dataType: int64
+		isHidden
+		lineageTag: 588a2891-9dd0-4126-b86c-925b94f2b8fb
+		sourceColumn: matured_count
+
+	column default_count
+		dataType: int64
+		isHidden
+		lineageTag: 92a042f2-e16e-40f6-b296-ca86d740230f
+		sourceColumn: default_count
+
+	column charged_off_count
+		dataType: int64
+		isHidden
+		lineageTag: d9faa3c5-e0ef-4790-8302-9a26f34dbc77
+		sourceColumn: charged_off_count
+
+	column fully_paid_count
+		dataType: int64
+		isHidden
+		lineageTag: c0c82092-e829-4a77-8d7d-0a9b1cd37b6c
+		sourceColumn: fully_paid_count
+
+	column default_exposure_proxy
+		dataType: double
+		isHidden
+		lineageTag: ca00b136-9150-4560-979d-fbd901890618
+		sourceColumn: default_exposure_proxy
+
+	column recoveries_default
+		dataType: double
+		isHidden
+		lineageTag: 9614929c-3f61-408f-beb4-7ab47a0b7187
+		sourceColumn: recoveries_default
+
+	column net_loss_proxy
+		dataType: double
+		isHidden
+		lineageTag: d17664be-8f27-4d5f-b819-87cfe67d123f
+		sourceColumn: net_loss_proxy
+
+	column realized_interest
+		dataType: double
+		isHidden
+		lineageTag: f265fa65-5570-4c98-83ad-73b7c7cc14b6
+		sourceColumn: realized_interest
+
+	column principal_repaid
+		dataType: double
+		isHidden
+		lineageTag: 1ffe7aef-309a-45f0-bf61-0f484ac21343
+		sourceColumn: principal_repaid
+
+	column seasoned_12m_count
+		dataType: int64
+		isHidden
+		lineageTag: d75788be-eef7-4f1f-a0d6-b135c0be8c23
+		summarizeBy: sum
+		sourceColumn: seasoned_12m_count
+
+	column default_12m_count
+		dataType: int64
+		isHidden
+		lineageTag: 30bac562-0466-42db-9fbb-b60a4e7dafdd
+		summarizeBy: sum
+		sourceColumn: default_12m_count
+
+	column seasoned_24m_count
+		dataType: int64
+		isHidden
+		lineageTag: ade7a02b-a637-4fe3-96c9-aa34efcd4f07
+		summarizeBy: sum
+		sourceColumn: seasoned_24m_count
+
+	column default_24m_count
+		dataType: int64
+		isHidden
+		lineageTag: b98b23db-ae63-4715-8a48-657489643adf
+		summarizeBy: sum
+		sourceColumn: default_24m_count
+
+	column seasoned_36m_count
+		dataType: int64
+		isHidden
+		lineageTag: 0d5c75ef-9fe2-4401-91c1-cc5b55295154
+		summarizeBy: sum
+		sourceColumn: seasoned_36m_count
+
+	column default_36m_count
+		dataType: int64
+		isHidden
+		lineageTag: 9f171f64-e4a1-4311-b6a7-1f9aa3fba152
+		summarizeBy: sum
+		sourceColumn: default_36m_count
+
+	column current_count
+		dataType: int64
+		isHidden
+		lineageTag: c1b68b13-5811-4786-ae95-c1dda9c71d66
+		summarizeBy: sum
+		sourceColumn: current_count
+
+	column late_count
+		dataType: int64
+		isHidden
+		lineageTag: a4857976-0adb-4e1f-a320-5e4340bfa726
+		summarizeBy: sum
+		sourceColumn: late_count
+
+	column prepaid_count
+		dataType: int64
+		isHidden
+		lineageTag: 7a89bd10-4400-431e-b50a-df51b977f103
+		summarizeBy: sum
+		sourceColumn: prepaid_count
+
+	column prepaid_24m_count
+		dataType: int64
+		isHidden
+		lineageTag: 4ef23c14-e10f-46d2-9b8a-e2f4a99c55fc
+		summarizeBy: sum
+		sourceColumn: prepaid_24m_count
+
+	column settlement_count
+		dataType: int64
+		isHidden
+		lineageTag: be7cd96b-98ec-42c7-9ec9-dd1a40732811
+		summarizeBy: sum
+		sourceColumn: settlement_count
+
+	column collection_fee_default
+		dataType: double
+		isHidden
+		lineageTag: 8b3dce5a-12c9-49ce-87ff-c65e6e967416
+		summarizeBy: sum
+		sourceColumn: collection_fee_default
+
+	column matured_funded
+		dataType: double
+		isHidden
+		lineageTag: c7b27b6d-2a49-4ebe-9974-108e637214bf
+		summarizeBy: sum
+		sourceColumn: matured_funded
+
+	column matured_funded_x_apr
+		dataType: double
+		isHidden
+		lineageTag: 23542f6e-8d7a-4047-a3fc-6e179ee33668
+		summarizeBy: sum
+		sourceColumn: matured_funded_x_apr
+
+	column matured_interest
+		dataType: double
+		isHidden
+		lineageTag: 8a8fce80-1127-4603-a6a0-2c5566c5e01b
+		summarizeBy: sum
+		sourceColumn: matured_interest
+
+	partition Portfolio_Cube = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(
+				        File.Contents(DataFolder & "lendingclub_segment_cube.csv"),
+				        [Delimiter=",", Columns=37, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    ChangedType = Table.TransformColumnTypes(
+				        PromotedHeaders,
+				        {
+				            {"vintage_year", Int64.Type},
+				            {"grade", type text},
+				            {"term", type text},
+				            {"purpose", type text},
+				            {"fico_band", type text},
+				            {"dti_band", type text},
+				            {"application_type", type text},
+				            {"home_ownership", type text},
+				            {"income_band", type text},
+				            {"loan_count", Int64.Type},
+				            {"funded_amount", type number},
+				            {"loan_amount", type number},
+				            {"funded_x_apr", type number},
+				            {"matured_count", Int64.Type},
+				            {"default_count", Int64.Type},
+				            {"charged_off_count", Int64.Type},
+				            {"fully_paid_count", Int64.Type},
+				            {"default_exposure_proxy", type number},
+				            {"recoveries_default", type number},
+				            {"net_loss_proxy", type number},
+				            {"realized_interest", type number},
+				            {"principal_repaid", type number},
+				            {"seasoned_12m_count", Int64.Type},
+				            {"default_12m_count", Int64.Type},
+				            {"seasoned_24m_count", Int64.Type},
+				            {"default_24m_count", Int64.Type},
+				            {"seasoned_36m_count", Int64.Type},
+				            {"default_36m_count", Int64.Type},
+				            {"current_count", Int64.Type},
+				            {"late_count", Int64.Type},
+				            {"prepaid_count", Int64.Type},
+				            {"prepaid_24m_count", Int64.Type},
+				            {"settlement_count", Int64.Type},
+				            {"collection_fee_default", type number},
+				            {"matured_funded", type number},
+				            {"matured_funded_x_apr", type number},
+				            {"matured_interest", type number}
+				        },
+				        "en-US"
+				    )
+				in
+				    ChangedType
+

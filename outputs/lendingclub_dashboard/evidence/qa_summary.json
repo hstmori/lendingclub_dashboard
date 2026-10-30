@@ -1,0 +1,113 @@
+{
+  "source_file": "data/raw/accepted_2010_to_2017.csv",
+  "source_bytes": 1293034426,
+  "row_count": 1757149,
+  "column_count": 151,
+  "selected_column_count": 26,
+  "selected_columns": [
+    "id",
+    "loan_amnt",
+    "funded_amnt",
+    "term",
+    "int_rate",
+    "installment",
+    "grade",
+    "sub_grade",
+    "home_ownership",
+    "annual_inc",
+    "issue_d",
+    "loan_status",
+    "purpose",
+    "dti",
+    "fico_range_low",
+    "fico_range_high",
+    "application_type",
+    "total_pymnt",
+    "total_pymnt_inv",
+    "total_rec_prncp",
+    "total_rec_int",
+    "recoveries",
+    "collection_recovery_fee",
+    "last_pymnt_d",
+    "hardship_flag",
+    "debt_settlement_flag"
+  ],
+  "grain": "One accepted LendingClub loan per row; candidate key id.",
+  "missing_id_count": 0,
+  "duplicate_loan_id_rows": 0,
+  "duplicate_loan_id_values": 0,
+  "invalid_issue_dates": 0,
+  "numeric_parse_failures": {
+    "loan_amnt": 0,
+    "funded_amnt": 0,
+    "int_rate": 0,
+    "installment": 0,
+    "annual_inc": 0,
+    "dti": 0,
+    "fico_range_low": 0,
+    "fico_range_high": 0,
+    "total_pymnt": 0,
+    "total_pymnt_inv": 0,
+    "total_rec_prncp": 0,
+    "total_rec_int": 0,
+    "recoveries": 0,
+    "collection_recovery_fee": 0
+  },
+  "loan_status_values": [
+    {
+      "loan_status": "Fully Paid",
+      "row_count": 1023664
+    },
+    {
+      "loan_status": "Current",
+      "row_count": 451136
+    },
+    {
+      "loan_status": "Charged Off",
+      "row_count": 258806
+    },
+    {
+      "loan_status": "Late (31-120 days)",
+      "row_count": 14246
+    },
+    {
+      "loan_status": "In Grace Period",
+      "row_count": 5517
+    },
+    {
+      "loan_status": "Late (16-30 days)",
+      "row_count": 2746
+    },
+    {
+      "loan_status": "Does not meet the credit policy. Status:Fully Paid",
+      "row_count": 731
+    },
+    {
+      "loan_status": "Does not meet the credit policy. Status:Charged Off",
+      "row_count": 270
+    },
+    {
+      "loan_status": "Default",
+      "row_count": 33
+    }
+  ],
+  "cube_row_count": 132733,
+  "data_cutoff": "2019-03-01",
+  "small_sample_threshold_matured": 100,
+  "core_kpis": {
+    "total_loans": 1757149,
+    "total_funded_amount": 25991364125.0,
+    "average_funded_amount": 14791.781530763754,
+    "matured_loans": 1282503,
+    "default_loans": 258839,
+    "charged_off_loans": 258806,
+    "matured_default_rate": 0.2018233095751043,
+    "charged_off_rate": 0.2017975786411416,
+    "weighted_apr": 0.13580036838639767,
+    "default_exposure_proxy": 2853937690.4800005,
+    "lgd_proxy": 0.8882540732918517,
+    "recovery_rate_proxy": 0.11189995616540664,
+    "expected_loss_rate_proxy": 0.17927037681532876,
+    "expected_loss_proxy": 4659481640.633167
+  }
+}

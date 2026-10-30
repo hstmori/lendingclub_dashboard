@@ -1,0 +1,33 @@
+/// Disconnected axis for contribution bridge per 100 USD funded.
+table 'Contribution Bridge'
+	lineageTag: d0248ea6-0e97-4b0d-860d-522b51fbafe3
+
+	column 'Bridge Step'
+		dataType: string
+		lineageTag: b9f54cae-2a33-4766-bc33-928d9c65805e
+		sourceColumn: [Step]
+		sortByColumn: Sort
+
+	column Sort
+		dataType: int64
+		isHidden
+		lineageTag: 800d813c-951f-4f87-b788-320e49b5c786
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Sort]
+
+	partition 'Contribution Bridge' = calculated
+		mode: import
+		source =
+				DATATABLE(
+				        "Step", STRING,
+				        "Sort", INTEGER,
+				        {
+				            {"Gross interest", 1},
+				            {"Net credit loss", 2},
+				            {"Funding cost", 3},
+				            {"Operating cost", 4},
+				            {"Contribution", 5}
+				        }
+				    )
+
