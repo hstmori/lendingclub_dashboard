@@ -47,629 +47,629 @@
       "displayName": "Danh sách hành động",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "5eaa229e920cae723257",
       "ordinal": 4,
       "visualContainers": [
         {
-          "config": "{\"name\":\"007242c10c0d18add831\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":6000,\"width\":288,\"height\":80,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"007242c10c0d18add831\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":6000,\"width\":288,\"height\":80,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 432.00,
-          "z": 6000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 432.0,
+          "z": 6000.0
         },
         {
-          "config": "{\"name\":\"02788ac59161e780e805\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":4000,\"width\":288,\"height\":80,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"02788ac59161e780e805\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":4000,\"width\":288,\"height\":80,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Loan Purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 304.00,
-          "z": 4000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 304.0,
+          "z": 4000.0
         },
         {
-          "config": "{\"name\":\"19787190a71764a5902d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":5000,\"width\":288,\"height\":80,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"19787190a71764a5902d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":5000,\"width\":288,\"height\":80,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 368.00,
-          "z": 5000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 368.0,
+          "z": 5000.0
         },
         {
-          "config": "{\"name\":\"4bb28c81e422ce0e0544\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":2000,\"width\":288,\"height\":64,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"vintage_year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"4bb28c81e422ce0e0544\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":2000,\"width\":288,\"height\":64,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"vintage_year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 176.00,
-          "z": 2000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 176.0,
+          "z": 2000.0
         },
         {
           "config": "{\"name\":\"6b49a4fe414bb0f69ec0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"z\":1000,\"width\":1264,\"height\":112,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Portfolio_Cube.Pro-forma Contribution\"},{\"queryRef\":\"Portfolio_Cube.Loss from Loss Segments\"},{\"queryRef\":\"Portfolio_Cube.Loss Segments Count\"},{\"queryRef\":\"Portfolio_Cube.Funded in Loss Segments\"},{\"queryRef\":\"Portfolio_Cube.Funded in Loss Segments %\"},{\"queryRef\":\"Portfolio_Cube.Funded Low Confidence %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Pro-forma Contribution\"},\"Name\":\"Portfolio_Cube.Pro-forma Contribution\",\"NativeReferenceName\":\"Pro-forma Contribution\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loss from Loss Segments\"},\"Name\":\"Portfolio_Cube.Loss from Loss Segments\",\"NativeReferenceName\":\"Loss from Loss Segments\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loss Segments Count\"},\"Name\":\"Portfolio_Cube.Loss Segments Count\",\"NativeReferenceName\":\"Loss Segments Count\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Funded in Loss Segments\"},\"Name\":\"Portfolio_Cube.Funded in Loss Segments\",\"NativeReferenceName\":\"Funded in Loss Segments\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Funded in Loss Segments %\"},\"Name\":\"Portfolio_Cube.Funded in Loss Segments %\",\"NativeReferenceName\":\"Funded in Loss Segments %\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Funded Low Confidence %\"},\"Name\":\"Portfolio_Cube.Funded Low Confidence %\",\"NativeReferenceName\":\"Funded Low Confidence %\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}]}}}",
           "filters": "[]",
-          "height": 112.00,
-          "width": 1264.00,
-          "x": 16.00,
-          "y": 0.00,
-          "z": 1000.00
+          "height": 112.0,
+          "width": 1264.0,
+          "x": 16.0,
+          "y": 0.0,
+          "z": 1000.0
         },
         {
           "config": "{\"name\":\"73de7c752e904b2646e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":640,\"z\":9000,\"width\":144,\"height\":80,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Funding Cost.Funding Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Funding Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Funding Cost Rate\"},\"Name\":\"Funding Cost.Funding Cost Rate\",\"NativeReferenceName\":\"Funding Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Funding Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 144.00,
-          "x": 0.00,
-          "y": 640.00,
-          "z": 9000.00
+          "height": 80.0,
+          "width": 144.0,
+          "x": 0.0,
+          "y": 640.0,
+          "z": 9000.0
         },
         {
-          "config": "{\"name\":\"7ee1125094221c3700d9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":3000,\"width\":288,\"height\":80,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"7ee1125094221c3700d9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":3000,\"width\":288,\"height\":80,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 240.00,
-          "z": 3000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 240.0,
+          "z": 3000.0
         },
         {
-          "config": "{\"name\":\"9052cf3042ed70e58d4e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":7000,\"width\":288,\"height\":80,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"9052cf3042ed70e58d4e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":7000,\"width\":288,\"height\":80,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 560.00,
-          "z": 7000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 560.0,
+          "z": 7000.0
         },
         {
-          "config": "{\"name\":\"92b0be4ba8d99371b34e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":128,\"z\":0,\"width\":992,\"height\":592,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\"},{\"queryRef\":\"Portfolio_Cube.Loan Term\"},{\"queryRef\":\"Portfolio_Cube.Loan Purpose\"},{\"queryRef\":\"Portfolio_Cube.FICO Band\"},{\"queryRef\":\"Portfolio_Cube.DTI Band\"},{\"queryRef\":\"Portfolio_Cube.Recommendation\"},{\"queryRef\":\"Portfolio_Cube.Total Loans\"},{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"},{\"queryRef\":\"Portfolio_Cube.Share of Funded\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.Risk Index\"},{\"queryRef\":\"Portfolio_Cube.Weighted APR\"},{\"queryRef\":\"Portfolio_Cube.Break-even APR\"},{\"queryRef\":\"Portfolio_Cube.Net Credit Loss\"},{\"queryRef\":\"Portfolio_Cube.Contribution Amount\"},{\"queryRef\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\"},{\"queryRef\":\"Portfolio_Cube.Matured Loans\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Recommendation\"},\"Name\":\"Portfolio_Cube.Recommendation\",\"NativeReferenceName\":\"Recommendation\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Share of Funded\"},\"Name\":\"Portfolio_Cube.Share of Funded\",\"NativeReferenceName\":\"Share of Funded\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk Index\"},\"Name\":\"Portfolio_Cube.Risk Index\",\"NativeReferenceName\":\"Risk Index\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Break-even APR\"},\"Name\":\"Portfolio_Cube.Break-even APR\",\"NativeReferenceName\":\"Break-even APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Net Credit Loss\"},\"Name\":\"Portfolio_Cube.Net Credit Loss\",\"NativeReferenceName\":\"Net Credit Loss\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Amount\"},\"Name\":\"Portfolio_Cube.Contribution Amount\",\"NativeReferenceName\":\"Contribution Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk-Adjusted Contribution Rate Proxy\"},\"Name\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\",\"NativeReferenceName\":\"Risk-Adjusted Contribution Rate Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Loans\"},\"Name\":\"Portfolio_Cube.Matured Loans\",\"NativeReferenceName\":\"Matured Loans\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Amount\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"92b0be4ba8d99371b34e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":128,\"z\":0,\"width\":992,\"height\":592,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\"},{\"queryRef\":\"Portfolio_Cube.Loan Term\"},{\"queryRef\":\"Portfolio_Cube.Loan Purpose\"},{\"queryRef\":\"Portfolio_Cube.FICO Band\"},{\"queryRef\":\"Portfolio_Cube.DTI Band\"},{\"queryRef\":\"Portfolio_Cube.Recommendation\"},{\"queryRef\":\"Portfolio_Cube.Total Loans\"},{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"},{\"queryRef\":\"Portfolio_Cube.Share of Funded\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.Risk Index\"},{\"queryRef\":\"Portfolio_Cube.Weighted APR\"},{\"queryRef\":\"Portfolio_Cube.Break-even APR\"},{\"queryRef\":\"Portfolio_Cube.Contribution Amount\"},{\"queryRef\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Recommendation\"},\"Name\":\"Portfolio_Cube.Recommendation\",\"NativeReferenceName\":\"Recommendation\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Share of Funded\"},\"Name\":\"Portfolio_Cube.Share of Funded\",\"NativeReferenceName\":\"Share of Funded\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk Index\"},\"Name\":\"Portfolio_Cube.Risk Index\",\"NativeReferenceName\":\"Risk Index\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Break-even APR\"},\"Name\":\"Portfolio_Cube.Break-even APR\",\"NativeReferenceName\":\"Break-even APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Amount\"},\"Name\":\"Portfolio_Cube.Contribution Amount\",\"NativeReferenceName\":\"Contribution Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk-Adjusted Contribution Rate Proxy\"},\"Name\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\",\"NativeReferenceName\":\"Risk-Adjusted Contribution Rate Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Amount\"}}}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[{\"name\":\"4200720352f1697382ac\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Total Loans\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"}},\"Right\":{\"Literal\":{\"Value\":\"500L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
-          "height": 592.00,
-          "width": 992.00,
-          "x": 288.00,
-          "y": 128.00,
-          "z": 0.00
+          "height": 592.0,
+          "width": 992.0,
+          "x": 288.0,
+          "y": 128.0,
+          "z": 0.0
         },
         {
           "config": "{\"name\":\"ab7ce94e8af7b60844c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":144,\"y\":640,\"z\":10000,\"width\":144,\"height\":80,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Operating Cost.Operating Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Operating Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Operating Cost Rate\"},\"Name\":\"Operating Cost.Operating Cost Rate\",\"NativeReferenceName\":\"Operating Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Operating Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 144.00,
-          "x": 144.00,
-          "y": 640.00,
-          "z": 10000.00
+          "height": 80.0,
+          "width": 144.0,
+          "x": 144.0,
+          "y": 640.0,
+          "z": 10000.0
         },
         {
-          "config": "{\"name\":\"bc6e2f990e3800aa099a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"bc6e2f990e3800aa099a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 496.00,
-          "z": 8000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 496.0,
+          "z": 8000.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     },
     {
       "config": "{}",
       "displayName": "Tổng quan",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "63fb80da900d8e93bb6c",
       "visualContainers": [
         {
-          "config": "{\"name\":\"043734222453aac66374\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":10000,\"width\":288,\"height\":80,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"043734222453aac66374\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":10000,\"width\":288,\"height\":80,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Loan Purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 304.00,
-          "z": 10000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 304.0,
+          "z": 10000.0
         },
         {
           "config": "{\"name\":\"04a12325d0b00ab30dc3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":64,\"z\":1000,\"width\":992,\"height\":112,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Portfolio_Cube.Total Loans\"},{\"queryRef\":\"Portfolio_Cube.Average Loan Amount\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Average Loan Amount\"},\"Name\":\"Portfolio_Cube.Average Loan Amount\",\"NativeReferenceName\":\"Average Loan Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 112.00,
-          "width": 992.00,
-          "x": 288.00,
-          "y": 64.00,
-          "z": 1000.00
+          "height": 112.0,
+          "width": 992.0,
+          "x": 288.0,
+          "y": 64.0,
+          "z": 1000.0
         },
         {
           "config": "{\"name\":\"08e0f4f3e7a193674e79\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":64,\"z\":2000,\"width\":288,\"height\":112,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 112.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 64.00,
-          "z": 2000.00
+          "height": 112.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 64.0,
+          "z": 2000.0
         },
         {
-          "config": "{\"name\":\"1a87819b60909c50d258\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":13000,\"width\":288,\"height\":96,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"1a87819b60909c50d258\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":13000,\"width\":288,\"height\":96,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 96.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 560.00,
-          "z": 13000.00
+          "height": 96.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 560.0,
+          "z": 13000.0
         },
         {
-          "config": "{\"name\":\"20be10dce8807ab81132\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":11000,\"width\":288,\"height\":80,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"20be10dce8807ab81132\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":11000,\"width\":288,\"height\":80,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 368.00,
-          "z": 11000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 368.0,
+          "z": 11000.0
         },
         {
-          "config": "{\"name\":\"6a973f44618515590846\",\"layouts\":[{\"id\":0,\"position\":{\"x\":304,\"y\":176,\"z\":6000,\"width\":976,\"height\":288,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"}],\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "config": "{\"name\":\"6a973f44618515590846\",\"layouts\":[{\"id\":0,\"position\":{\"x\":304,\"y\":176,\"z\":6000,\"width\":976,\"height\":288,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"}],\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
-          "height": 288.00,
-          "width": 976.00,
-          "x": 304.00,
-          "y": 176.00,
-          "z": 6000.00
+          "height": 288.0,
+          "width": 976.0,
+          "x": 304.0,
+          "y": 176.0,
+          "z": 6000.0
         },
         {
           "config": "{\"name\":\"81ae095e0607a492318e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":496,\"height\":64,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Credit Portfolio Intelligence\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\",\"color\":\"#059e45\"}}]}]}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 496.00,
-          "x": 0.00,
-          "y": 0.00,
-          "z": 0.00
+          "height": 64.0,
+          "width": 496.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
         },
         {
-          "config": "{\"name\":\"a340f0e0070d4d4ad6a8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":304,\"y\":480,\"z\":7000,\"width\":960,\"height\":224,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"a340f0e0070d4d4ad6a8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":304,\"y\":480,\"z\":7000,\"width\":960,\"height\":224,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 224.00,
-          "width": 960.00,
-          "x": 304.00,
-          "y": 480.00,
-          "z": 7000.00
+          "height": 224.0,
+          "width": 960.0,
+          "x": 304.0,
+          "y": 480.0,
+          "z": 7000.0
         },
         {
-          "config": "{\"name\":\"b3c9418e0b3a12433638\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":12000,\"width\":288,\"height\":80,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"b3c9418e0b3a12433638\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":12000,\"width\":288,\"height\":80,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 432.00,
-          "z": 12000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 432.0,
+          "z": 12000.0
         },
         {
-          "config": "{\"name\":\"bcf4cb6f343147498834\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":14000,\"width\":288,\"height\":64,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"bcf4cb6f343147498834\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":14000,\"width\":288,\"height\":64,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 496.00,
-          "z": 14000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 496.0,
+          "z": 14000.0
         },
         {
-          "config": "{\"name\":\"ccb13d0b2922d01de1b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":9000,\"width\":288,\"height\":80,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"ccb13d0b2922d01de1b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":9000,\"width\":288,\"height\":80,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 240.00,
-          "z": 9000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 240.0,
+          "z": 9000.0
         },
         {
-          "config": "{\"name\":\"ce276ac32278901b3153\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"ce276ac32278901b3153\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 176.00,
-          "z": 8000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 176.0,
+          "z": 8000.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     },
     {
       "config": "{}",
       "displayName": "Phương pháp",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "85859b0ae37d4494012d",
       "ordinal": 5,
       "visualContainers": [
         {
           "config": "{\"name\":\"4a8cb9b4138e89801550\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":288,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"PHƯƠNG PHÁP & GIẢ ĐỊNH\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"PD = Default hoặc Charged Off / outcome cuối cùng. Current, Late và In Grace Period không nằm trong mẫu matured.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"LGD và EAD là proxy: funded amount đại diện exposure; LGD proxy dùng tổn thất ròng sau recoveries. Expected Loss Proxy = PD × LGD × EAD.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"Vintage = năm issue_d. Contribution Amount = lãi đã thu − tổn thất ròng − chi phí vốn − chi phí vận hành; chi phí tính trên dư nợ bình quân × số năm (suy ra từ lãi đã thu / APR). Contribution Margin = Contribution / funded; Contribution Rate = Contribution / dư nợ bình quân (theo năm). Chi phí mặc định 4% và 1%/năm, chỉnh bằng slicer trên trang Vintage. Default Rate 12/24/36M: khoản vỡ nợ tính tại tháng trả tiền cuối, mẫu số chỉ gồm khoản đã giải ngân đủ N tháng trước ngày chốt dữ liệu, nên so sánh được giữa các vintage. Matured Contribution Margin chỉ tính khoản đã đóng nên là cận dưới (vintage non bị kéo xuống bởi vỡ nợ sớm); Contribution Margin là cận trên. Prepayment Rate 24M tính như Default Rate 24M.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"Cảnh báo maturity bias, selection bias, vintage comparability.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"Không dùng biến hậu giải ngân cho phê duyệt: loan_status, total_pymnt, total_pymnt_inv, total_rec_int, recoveries, collection_recovery_fee, hardship_*, settlement_*, last_pymnt_d.\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]}]}}]}}}",
           "filters": "[]",
-          "height": 288.00,
-          "width": 1280.00,
-          "x": 0.00,
-          "y": 0.00,
-          "z": 0.00
+          "height": 288.0,
+          "width": 1280.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     },
     {
       "config": "{}",
       "displayName": "Phân khúc rủi ro",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "91117e96e421835abda7",
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"24b674d7a6d1ab62b35c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"24b674d7a6d1ab62b35c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":176,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 176.00,
-          "z": 5000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 176.0,
+          "z": 5000.0
         },
         {
-          "config": "{\"name\":\"30651ba050e40cdc0045\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":10000,\"width\":288,\"height\":80,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"30651ba050e40cdc0045\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":560,\"z\":10000,\"width\":288,\"height\":80,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 560.00,
-          "z": 10000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 560.0,
+          "z": 10000.0
         },
         {
-          "config": "{\"name\":\"35d9efe177066dd10709\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":496,\"z\":2000,\"width\":992,\"height\":224,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Total Loans\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}],\"Rows\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}],\"Columns\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"35d9efe177066dd10709\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":496,\"z\":2000,\"width\":992,\"height\":224,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Total Loans\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}],\"Rows\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}],\"Columns\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 224.00,
-          "width": 992.00,
-          "x": 288.00,
-          "y": 496.00,
-          "z": 2000.00
+          "height": 224.0,
+          "width": 992.0,
+          "x": 288.0,
+          "y": 496.0,
+          "z": 2000.0
         },
         {
-          "config": "{\"name\":\"55b558d1b01701309dc6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":7000,\"width\":288,\"height\":80,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"55b558d1b01701309dc6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":304,\"z\":7000,\"width\":288,\"height\":80,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Loan Purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 304.00,
-          "z": 7000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 304.0,
+          "z": 7000.0
         },
         {
-          "config": "{\"name\":\"64c075ed07dc80ba6b7e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":6000,\"width\":288,\"height\":80,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"64c075ed07dc80ba6b7e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":240,\"z\":6000,\"width\":288,\"height\":80,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 240.00,
-          "z": 6000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 240.0,
+          "z": 6000.0
         },
         {
-          "config": "{\"name\":\"8004dce177611273e782\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":8000,\"width\":288,\"height\":80,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"8004dce177611273e782\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":8000,\"width\":288,\"height\":80,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 368.00,
-          "z": 8000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 368.0,
+          "z": 8000.0
         },
         {
-          "config": "{\"name\":\"91ba1cd78159a4a818c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":0,\"z\":4000,\"width\":480,\"height\":288,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"91ba1cd78159a4a818c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":0,\"z\":4000,\"width\":480,\"height\":288,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 288.00,
-          "width": 480.00,
-          "x": 288.00,
-          "y": 0.00,
-          "z": 4000.00
+          "height": 288.0,
+          "width": 480.0,
+          "x": 288.0,
+          "y": 0.0,
+          "z": 4000.0
         },
         {
-          "config": "{\"name\":\"aed506a2237bc8ed7e80\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":288,\"z\":1000,\"width\":992,\"height\":208,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}],\"Columns\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}],\"Values\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.Total Loans\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"98.79775768537978D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'<10'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"85.31461333904323D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'10–19.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"84.19100145504777D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'20–29.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"92.0561855122115D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'30–39.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"85.31457776442909D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'40+'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"68.01123411150022D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'Unknown'\"}}}}}],\"metadata\":\"Portfolio_Cube.Total Loans\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"87.56180406343265D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}},\"Right\":{\"Literal\":{\"Value\":\"'Unknown'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"89.69663001548273D\"}}}},\"selector\":{\"data\":[{\"total\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"dti_band\"}}]}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "config": "{\"name\":\"aed506a2237bc8ed7e80\",\"layouts\":[{\"id\":0,\"position\":{\"x\":288,\"y\":288,\"z\":1000,\"width\":992,\"height\":208,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}],\"Columns\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}],\"Values\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.Total Loans\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Loans\"},\"Name\":\"Portfolio_Cube.Total Loans\",\"NativeReferenceName\":\"Total Loans\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"98.79775768537978D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'<10'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"85.31461333904323D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'10–19.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"84.19100145504777D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'20–29.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"92.0561855122115D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'30–39.99'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"85.31457776442909D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'40+'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"68.01123411150022D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'Unknown'\"}}}}}],\"metadata\":\"Portfolio_Cube.Total Loans\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"87.56180406343265D\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}},\"Right\":{\"Literal\":{\"Value\":\"'Unknown'\"}}}}}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"89.69663001548273D\"}}}},\"selector\":{\"data\":[{\"total\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"DTI Band\"}}]}],\"metadata\":\"Portfolio_Cube.Matured Default Rate\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
           "filters": "[]",
-          "height": 208.00,
-          "width": 992.00,
-          "x": 288.00,
-          "y": 288.00,
-          "z": 1000.00
+          "height": 208.0,
+          "width": 992.0,
+          "x": 288.0,
+          "y": 288.0,
+          "z": 1000.0
         },
         {
-          "config": "{\"name\":\"af08ba1e428db0b95eda\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":11000,\"width\":288,\"height\":64,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"af08ba1e428db0b95eda\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":496,\"z\":11000,\"width\":288,\"height\":64,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 496.00,
-          "z": 11000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 496.0,
+          "z": 11000.0
         },
         {
-          "config": "{\"name\":\"b13704707ac735933902\",\"layouts\":[{\"id\":0,\"position\":{\"x\":784,\"y\":0,\"z\":3000,\"width\":496,\"height\":288,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Income Band\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"income_band\"},\"Name\":\"Portfolio_Cube.Income Band\",\"NativeReferenceName\":\"Income Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "config": "{\"name\":\"b13704707ac735933902\",\"layouts\":[{\"id\":0,\"position\":{\"x\":784,\"y\":0,\"z\":3000,\"width\":496,\"height\":288,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Income Band\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Income Band\"},\"Name\":\"Portfolio_Cube.Income Band\",\"NativeReferenceName\":\"Income Band\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
           "filters": "[]",
-          "height": 288.00,
-          "width": 496.00,
-          "x": 784.00,
-          "y": 0.00,
-          "z": 3000.00
+          "height": 288.0,
+          "width": 496.0,
+          "x": 784.0,
+          "y": 0.0,
+          "z": 3000.0
         },
         {
           "config": "{\"name\":\"b1898fda018d963e49b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":16,\"z\":0,\"width\":272,\"height\":144,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Credit Portfolio Intelligence\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\",\"color\":\"#059e45\"}}]}]}}]}}}",
           "filters": "[]",
-          "height": 144.00,
-          "width": 272.00,
-          "x": 16.00,
-          "y": 16.00,
-          "z": 0.00
+          "height": 144.0,
+          "width": 272.0,
+          "x": 16.0,
+          "y": 16.0,
+          "z": 0.0
         },
         {
-          "config": "{\"name\":\"e6abd0206e085695018b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":9000,\"width\":288,\"height\":80,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"e6abd0206e085695018b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":432,\"z\":9000,\"width\":288,\"height\":80,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 80.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 432.00,
-          "z": 9000.00
+          "height": 80.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 432.0,
+          "z": 9000.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     },
     {
       "config": "{}",
       "displayName": "Vintage & lợi nhuận",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "a511192076d400c09002",
       "ordinal": 2,
       "visualContainers": [
         {
-          "config": "{\"name\":\"080294f90982c43023c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":512,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"080294f90982c43023c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":512,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 512.00,
-          "z": 8000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 512.0,
+          "z": 8000.0
         },
         {
-          "config": "{\"name\":\"0eb083907780de29e1ec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":256,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"0eb083907780de29e1ec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":256,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Loan Purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 256.00,
-          "z": 5000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 256.0,
+          "z": 5000.0
         },
         {
-          "config": "{\"name\":\"1c318aeceee149005909\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":448,\"z\":9000,\"width\":288,\"height\":64,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"1c318aeceee149005909\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":448,\"z\":9000,\"width\":288,\"height\":64,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 448.00,
-          "z": 9000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 448.0,
+          "z": 9000.0
         },
         {
-          "config": "{\"name\":\"3e38bf2bcb437bac6b91\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":480,\"z\":0,\"width\":944,\"height\":240,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\"},{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"},{\"queryRef\":\"Portfolio_Cube.Weighted APR\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.LGD Proxy\"},{\"queryRef\":\"Portfolio_Cube.Expected Loss Proxy\"},{\"queryRef\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"},{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"LGD Proxy\"},\"Name\":\"Portfolio_Cube.LGD Proxy\",\"NativeReferenceName\":\"LGD Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Expected Loss Proxy\"},\"Name\":\"Portfolio_Cube.Expected Loss Proxy\",\"NativeReferenceName\":\"Expected Loss Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk-Adjusted Contribution Rate Proxy\"},\"Name\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\",\"NativeReferenceName\":\"Risk-Adjusted Contribution Rate Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"3e38bf2bcb437bac6b91\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":480,\"z\":0,\"width\":944,\"height\":240,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\"},{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"},{\"queryRef\":\"Portfolio_Cube.Weighted APR\"},{\"queryRef\":\"Portfolio_Cube.Matured Default Rate\"},{\"queryRef\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"},{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Default Rate\"},\"Name\":\"Portfolio_Cube.Matured Default Rate\",\"NativeReferenceName\":\"Matured Default Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Risk-Adjusted Contribution Rate Proxy\"},\"Name\":\"Portfolio_Cube.Risk-Adjusted Contribution Rate Proxy\",\"NativeReferenceName\":\"Risk-Adjusted Contribution Rate Proxy\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 240.00,
-          "width": 944.00,
-          "x": 336.00,
-          "y": 480.00,
-          "z": 0.00
+          "height": 240.0,
+          "width": 944.0,
+          "x": 336.0,
+          "y": 480.0,
+          "z": 0.0
         },
         {
           "config": "{\"name\":\"81738e32ce5eb2bfc619\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":576,\"z\":11000,\"width\":288,\"height\":64,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Funding Cost.Funding Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Funding Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Funding Cost Rate\"},\"Name\":\"Funding Cost.Funding Cost Rate\",\"NativeReferenceName\":\"Funding Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Funding Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 576.00,
-          "z": 11000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 576.0,
+          "z": 11000.0
         },
         {
-          "config": "{\"name\":\"8eef195fe48d90630574\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":383.99999999999994,\"z\":7000,\"width\":288,\"height\":64,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"8eef195fe48d90630574\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":383.99999999999994,\"z\":7000,\"width\":288,\"height\":64,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 384.00,
-          "z": 7000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 384.0,
+          "z": 7000.0
         },
         {
-          "config": "{\"name\":\"96fcbe7aa58794450bd0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":128,\"z\":2000,\"width\":480,\"height\":336,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Weighted APR\"}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Break-even APR\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Break-even APR\"},\"Name\":\"Portfolio_Cube.Break-even APR\",\"NativeReferenceName\":\"Break-even APR\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"96fcbe7aa58794450bd0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":128,\"z\":2000,\"width\":480,\"height\":336,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Weighted APR\"}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Break-even APR\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Weighted APR\"},\"Name\":\"Portfolio_Cube.Weighted APR\",\"NativeReferenceName\":\"Weighted APR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Break-even APR\"},\"Name\":\"Portfolio_Cube.Break-even APR\",\"NativeReferenceName\":\"Break-even APR\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 336.00,
-          "width": 480.00,
-          "x": 800.00,
-          "y": 128.00,
-          "z": 2000.00
+          "height": 336.0,
+          "width": 480.0,
+          "x": 800.0,
+          "y": 128.0,
+          "z": 2000.0
         },
         {
-          "config": "{\"name\":\"af08423fd4c7ac471289\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":128,\"z\":3000,\"width\":288,\"height\":64,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"af08423fd4c7ac471289\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":128,\"z\":3000,\"width\":288,\"height\":64,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 128.00,
-          "z": 3000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 128.0,
+          "z": 3000.0
         },
         {
-          "config": "{\"name\":\"d2310184d443acba06e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":191.99999999999997,\"z\":4000,\"width\":288,\"height\":64,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"d2310184d443acba06e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":191.99999999999997,\"z\":4000,\"width\":288,\"height\":64,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 192.00,
-          "z": 4000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 192.0,
+          "z": 4000.0
         },
         {
           "config": "{\"name\":\"d6d2a400963f53261d3a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":640,\"z\":12000,\"width\":288,\"height\":64,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Operating Cost.Operating Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Operating Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Operating Cost Rate\"},\"Name\":\"Operating Cost.Operating Cost Rate\",\"NativeReferenceName\":\"Operating Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Operating Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 640.00,
-          "z": 12000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 640.0,
+          "z": 12000.0
         },
         {
-          "config": "{\"name\":\"f2d8e41bd6536073d586\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":320,\"z\":6000,\"width\":288,\"height\":64,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"f2d8e41bd6536073d586\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":320,\"z\":6000,\"width\":288,\"height\":64,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 320.00,
-          "z": 6000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 320.0,
+          "z": 6000.0
         },
         {
           "config": "{\"name\":\"fb5ff8dc49db985901d1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":128,\"z\":1000,\"width\":463.99999999999994,\"height\":336,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"waterfallChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Contribution Bridge.Bridge Step\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Contribution Bridge Value\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Contribution Bridge\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Bridge Step\"},\"Name\":\"Contribution Bridge.Bridge Step\",\"NativeReferenceName\":\"Bridge Step\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Bridge Value\"},\"Name\":\"Portfolio_Cube.Contribution Bridge Value\",\"NativeReferenceName\":\"Contribution Bridge Value\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Bridge Step\"}}}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 336.00,
-          "width": 464.00,
-          "x": 336.00,
-          "y": 128.00,
-          "z": 1000.00
+          "height": 336.0,
+          "width": 464.0,
+          "x": 336.0,
+          "y": 128.0,
+          "z": 1000.0
         },
         {
           "config": "{\"name\":\"ff814442db5ab9ab2d04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":10000,\"width\":1280,\"height\":112,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Portfolio_Cube.Gross Interest\"},{\"queryRef\":\"Portfolio_Cube.Net Credit Loss\"},{\"queryRef\":\"Portfolio_Cube.Funding Cost Amount\"},{\"queryRef\":\"Portfolio_Cube.Operating Cost Amount\"},{\"queryRef\":\"Portfolio_Cube.Contribution Amount\"},{\"queryRef\":\"Portfolio_Cube.Recovery Rate Proxy\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Gross Interest\"},\"Name\":\"Portfolio_Cube.Gross Interest\",\"NativeReferenceName\":\"Gross Interest\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Net Credit Loss\"},\"Name\":\"Portfolio_Cube.Net Credit Loss\",\"NativeReferenceName\":\"Net Credit Loss\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Funding Cost Amount\"},\"Name\":\"Portfolio_Cube.Funding Cost Amount\",\"NativeReferenceName\":\"Funding Cost Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Operating Cost Amount\"},\"Name\":\"Portfolio_Cube.Operating Cost Amount\",\"NativeReferenceName\":\"Operating Cost Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Amount\"},\"Name\":\"Portfolio_Cube.Contribution Amount\",\"NativeReferenceName\":\"Contribution Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Recovery Rate Proxy\"},\"Name\":\"Portfolio_Cube.Recovery Rate Proxy\",\"NativeReferenceName\":\"Recovery Rate Proxy\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}]}}}",
           "filters": "[]",
-          "height": 112.00,
-          "width": 1280.00,
-          "x": 0.00,
-          "y": 0.00,
-          "z": 10000.00
+          "height": 112.0,
+          "width": 1280.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10000.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     },
     {
       "config": "{}",
       "displayName": "Chất lượng vintage",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720.0,
       "name": "fc3ffdc034c381bdc683",
       "ordinal": 3,
       "visualContainers": [
         {
-          "config": "{\"name\":\"0213fa1ca2462fc54b19\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":512,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"home_ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"0213fa1ca2462fc54b19\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":512,\"z\":8000,\"width\":288,\"height\":64,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Home Ownership\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Home Ownership\"},\"Name\":\"Portfolio_Cube.Home Ownership\",\"NativeReferenceName\":\"Home Ownership\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Home Ownership\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Home Ownership\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 512.00,
-          "z": 8000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 512.0,
+          "z": 8000.0
         },
         {
-          "config": "{\"name\":\"17bf90d5376fa3f61902\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":320,\"z\":6000,\"width\":288,\"height\":64,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"fico_band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"17bf90d5376fa3f61902\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":320,\"z\":6000,\"width\":288,\"height\":64,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.FICO Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FICO Band\"},\"Name\":\"Portfolio_Cube.FICO Band\",\"NativeReferenceName\":\"FICO Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.FICO Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"FICO Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 320.00,
-          "z": 6000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 320.0,
+          "z": 6000.0
         },
         {
           "config": "{\"name\":\"387b0dc36d525be5dcff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":640,\"z\":12000,\"width\":288,\"height\":64,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Operating Cost.Operating Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Operating Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Operating Cost Rate\"},\"Name\":\"Operating Cost.Operating Cost Rate\",\"NativeReferenceName\":\"Operating Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Operating Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 640.00,
-          "z": 12000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 640.0,
+          "z": 12000.0
         },
         {
-          "config": "{\"name\":\"3bb0d716f71ae97ea368\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":383.99999999999994,\"z\":7000,\"width\":288,\"height\":64,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"dti_band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"3bb0d716f71ae97ea368\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":383.99999999999994,\"z\":7000,\"width\":288,\"height\":64,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.DTI Band\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"DTI Band\"},\"Name\":\"Portfolio_Cube.DTI Band\",\"NativeReferenceName\":\"DTI Band\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.DTI Band\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"DTI Band\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 384.00,
-          "z": 7000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 384.0,
+          "z": 7000.0
         },
         {
-          "config": "{\"name\":\"5046b3902fddadddb547\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":128,\"z\":0,\"width\":464,\"height\":336,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Default Rate 12M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 36M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 12M\"},\"Name\":\"Portfolio_Cube.Default Rate 12M\",\"NativeReferenceName\":\"Default Rate 12M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 24M\"},\"Name\":\"Portfolio_Cube.Default Rate 24M\",\"NativeReferenceName\":\"Default Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 36M\"},\"Name\":\"Portfolio_Cube.Default Rate 36M\",\"NativeReferenceName\":\"Default Rate 36M\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tỷ lệ vỡ nợ sau 12/24/36 tháng theo vintage'\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "config": "{\"name\":\"5046b3902fddadddb547\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":128,\"z\":0,\"width\":464,\"height\":336,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Total Funded Amount\"}],\"Y2\":[{\"queryRef\":\"Portfolio_Cube.Default Rate 12M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 36M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Total Funded Amount\"},\"Name\":\"Portfolio_Cube.Total Funded Amount\",\"NativeReferenceName\":\"Total Funded Amount\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 12M\"},\"Name\":\"Portfolio_Cube.Default Rate 12M\",\"NativeReferenceName\":\"Default Rate 12M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 24M\"},\"Name\":\"Portfolio_Cube.Default Rate 24M\",\"NativeReferenceName\":\"Default Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 36M\"},\"Name\":\"Portfolio_Cube.Default Rate 36M\",\"NativeReferenceName\":\"Default Rate 36M\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tỷ lệ vỡ nợ sau 12/24/36 tháng theo vintage'\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
-          "height": 336.00,
-          "width": 464.00,
-          "x": 336.00,
-          "y": 128.00,
-          "z": 0.00
+          "height": 336.0,
+          "width": 464.0,
+          "x": 336.0,
+          "y": 128.0,
+          "z": 0.0
         },
         {
-          "config": "{\"name\":\"71250b9e15c25a197f48\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":256,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"71250b9e15c25a197f48\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":256,\"z\":5000,\"width\":288,\"height\":64,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Purpose\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Purpose\"},\"Name\":\"Portfolio_Cube.Loan Purpose\",\"NativeReferenceName\":\"Loan Purpose\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Purpose\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Portfolio_Cube\"}},\"Property\":\"Loan Purpose\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Purpose\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 256.00,
-          "z": 5000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 256.0,
+          "z": 5000.0
         },
         {
-          "config": "{\"name\":\"71b5ac5ef3678ae1a5b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":191.99999999999997,\"z\":4000,\"width\":288,\"height\":64,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "config": "{\"name\":\"71b5ac5ef3678ae1a5b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":191.99999999999997,\"z\":4000,\"width\":288,\"height\":64,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Grade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Grade\"},\"Name\":\"Portfolio_Cube.Loan Grade\",\"NativeReferenceName\":\"Loan Grade\"}]},\"syncGroup\":{\"groupName\":\"Loan Grade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 192.00,
-          "z": 4000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 192.0,
+          "z": 4000.0
         },
         {
           "config": "{\"name\":\"779761a26bf8176156a7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":576,\"z\":11000,\"width\":288,\"height\":64,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Funding Cost.Funding Cost Rate\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Funding Cost\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Funding Cost Rate\"},\"Name\":\"Funding Cost.Funding Cost Rate\",\"NativeReferenceName\":\"Funding Cost Rate\"}]},\"syncGroup\":{\"groupName\":\"Funding Cost Rate\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 576.00,
-          "z": 11000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 576.0,
+          "z": 11000.0
         },
         {
-          "config": "{\"name\":\"9b09df12db015b1c3448\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":448,\"z\":9000,\"width\":288,\"height\":64,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"9b09df12db015b1c3448\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":448,\"z\":9000,\"width\":288,\"height\":64,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Loan Term\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Loan Term\"},\"Name\":\"Portfolio_Cube.Loan Term\",\"NativeReferenceName\":\"Loan Term\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"Portfolio_Cube.Loan Term\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"syncGroup\":{\"groupName\":\"Loan Term\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 448.00,
-          "z": 9000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 448.0,
+          "z": 9000.0
         },
         {
-          "config": "{\"name\":\"adefa9149ff943ce61ad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":128,\"z\":1000,\"width\":480,\"height\":336,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"},{\"queryRef\":\"Portfolio_Cube.Matured Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Contribution Margin\"},\"Name\":\"Portfolio_Cube.Matured Contribution Margin\",\"NativeReferenceName\":\"Matured Contribution Margin\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Contribution'\"}}}}}]}}}",
+          "config": "{\"name\":\"adefa9149ff943ce61ad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":128,\"z\":1000,\"width\":480,\"height\":336,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"},{\"queryRef\":\"Portfolio_Cube.Matured Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Contribution Margin\"},\"Name\":\"Portfolio_Cube.Matured Contribution Margin\",\"NativeReferenceName\":\"Matured Contribution Margin\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Contribution margin: cận trên vs. cận dưới'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 336.00,
-          "width": 480.00,
-          "x": 800.00,
-          "y": 128.00,
-          "z": 1000.00
+          "height": 336.0,
+          "width": 480.0,
+          "x": 800.0,
+          "y": 128.0,
+          "z": 1000.0
         },
         {
           "config": "{\"name\":\"bb7c210071c8a1255184\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":10000,\"width\":1264,\"height\":112,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Portfolio_Cube.Default Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Matured Contribution Margin\"},{\"queryRef\":\"Portfolio_Cube.Current Delinquency Rate\"},{\"queryRef\":\"Portfolio_Cube.Prepayment Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Settlement Rate\"},{\"queryRef\":\"Portfolio_Cube.Net Recovery Rate\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 24M\"},\"Name\":\"Portfolio_Cube.Default Rate 24M\",\"NativeReferenceName\":\"Default Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Contribution Margin\"},\"Name\":\"Portfolio_Cube.Matured Contribution Margin\",\"NativeReferenceName\":\"Matured Contribution Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Current Delinquency Rate\"},\"Name\":\"Portfolio_Cube.Current Delinquency Rate\",\"NativeReferenceName\":\"Current Delinquency Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Prepayment Rate 24M\"},\"Name\":\"Portfolio_Cube.Prepayment Rate 24M\",\"NativeReferenceName\":\"Prepayment Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Settlement Rate\"},\"Name\":\"Portfolio_Cube.Settlement Rate\",\"NativeReferenceName\":\"Settlement Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Net Recovery Rate\"},\"Name\":\"Portfolio_Cube.Net Recovery Rate\",\"NativeReferenceName\":\"Net Recovery Rate\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}]}}}",
           "filters": "[]",
-          "height": 112.00,
-          "width": 1264.00,
-          "x": 0.00,
-          "y": 0.00,
-          "z": 10000.00
+          "height": 112.0,
+          "width": 1264.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10000.0
         },
         {
-          "config": "{\"name\":\"e8a1b1999578342fe5d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":128,\"z\":2000,\"width\":288,\"height\":64,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "config": "{\"name\":\"e8a1b1999578342fe5d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":128,\"z\":2000,\"width\":288,\"height\":64,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"}]},\"syncGroup\":{\"groupName\":\"Vintage Year\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2014D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
           "filters": "[]",
-          "height": 64.00,
-          "width": 288.00,
-          "x": 0.00,
-          "y": 128.00,
-          "z": 2000.00
+          "height": 64.0,
+          "width": 288.0,
+          "x": 0.0,
+          "y": 128.0,
+          "z": 2000.0
         },
         {
-          "config": "{\"name\":\"fef654f63524bc8e5127\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":480,\"z\":3000,\"width\":944,\"height\":240,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 12M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 36M\"},{\"queryRef\":\"Portfolio_Cube.Current Delinquency Rate\"},{\"queryRef\":\"Portfolio_Cube.Prepayment Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Settlement Rate\"},{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"},{\"queryRef\":\"Portfolio_Cube.Matured Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 12M\"},\"Name\":\"Portfolio_Cube.Default Rate 12M\",\"NativeReferenceName\":\"Default Rate 12M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 24M\"},\"Name\":\"Portfolio_Cube.Default Rate 24M\",\"NativeReferenceName\":\"Default Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 36M\"},\"Name\":\"Portfolio_Cube.Default Rate 36M\",\"NativeReferenceName\":\"Default Rate 36M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Current Delinquency Rate\"},\"Name\":\"Portfolio_Cube.Current Delinquency Rate\",\"NativeReferenceName\":\"Current Delinquency Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Prepayment Rate 24M\"},\"Name\":\"Portfolio_Cube.Prepayment Rate 24M\",\"NativeReferenceName\":\"Prepayment Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Settlement Rate\"},\"Name\":\"Portfolio_Cube.Settlement Rate\",\"NativeReferenceName\":\"Settlement Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Contribution Margin\"},\"Name\":\"Portfolio_Cube.Matured Contribution Margin\",\"NativeReferenceName\":\"Matured Contribution Margin\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"vintage_year\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"fef654f63524bc8e5127\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336,\"y\":480,\"z\":3000,\"width\":944,\"height\":240,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Portfolio_Cube.Vintage Year\"},{\"queryRef\":\"Portfolio_Cube.Maturity Coverage\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 12M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Default Rate 36M\"},{\"queryRef\":\"Portfolio_Cube.Current Delinquency Rate\"},{\"queryRef\":\"Portfolio_Cube.Prepayment Rate 24M\"},{\"queryRef\":\"Portfolio_Cube.Settlement Rate\"},{\"queryRef\":\"Portfolio_Cube.Contribution Margin\"},{\"queryRef\":\"Portfolio_Cube.Matured Contribution Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Portfolio_Cube\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"},\"Name\":\"Portfolio_Cube.Vintage Year\",\"NativeReferenceName\":\"Vintage Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Maturity Coverage\"},\"Name\":\"Portfolio_Cube.Maturity Coverage\",\"NativeReferenceName\":\"Maturity Coverage\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 12M\"},\"Name\":\"Portfolio_Cube.Default Rate 12M\",\"NativeReferenceName\":\"Default Rate 12M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 24M\"},\"Name\":\"Portfolio_Cube.Default Rate 24M\",\"NativeReferenceName\":\"Default Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Default Rate 36M\"},\"Name\":\"Portfolio_Cube.Default Rate 36M\",\"NativeReferenceName\":\"Default Rate 36M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Current Delinquency Rate\"},\"Name\":\"Portfolio_Cube.Current Delinquency Rate\",\"NativeReferenceName\":\"Current Delinquency Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Prepayment Rate 24M\"},\"Name\":\"Portfolio_Cube.Prepayment Rate 24M\",\"NativeReferenceName\":\"Prepayment Rate 24M\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Settlement Rate\"},\"Name\":\"Portfolio_Cube.Settlement Rate\",\"NativeReferenceName\":\"Settlement Rate\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Contribution Margin\"},\"Name\":\"Portfolio_Cube.Contribution Margin\",\"NativeReferenceName\":\"Contribution Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Matured Contribution Margin\"},\"Name\":\"Portfolio_Cube.Matured Contribution Margin\",\"NativeReferenceName\":\"Matured Contribution Margin\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Vintage Year\"}}}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 240.00,
-          "width": 944.00,
-          "x": 336.00,
-          "y": 480.00,
-          "z": 3000.00
+          "height": 240.0,
+          "width": 944.0,
+          "x": 336.0,
+          "y": 480.0,
+          "z": 3000.0
         }
       ],
-      "width": 1280.00
+      "width": 1280.0
     }
   ],
   "theme": "LendingClub_Executive45702692388443.json"

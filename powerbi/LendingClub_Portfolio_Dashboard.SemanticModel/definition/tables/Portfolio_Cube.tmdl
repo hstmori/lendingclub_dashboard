@@ -82,8 +82,8 @@ table Portfolio_Cube
 		displayFolder: Vintage Quality
 		lineageTag: 34635890-882f-4d9c-a80f-c6f1a4da6063
 
-	/// Tỷ lệ khoản đang trả bị trễ hạn (In Grace / Late); tín hiệu sớm cho vintage còn non.
-	measure 'Current Delinquency Rate' = DIVIDE ( SUM ( Portfolio_Cube[late_count] ), [Active Loans] )
+	/// Tỷ lệ khoản đang trả bị trễ hạn (In Grace / Late); tín hiệu sớm cho vintage còn non. Để trống khi dưới 100 khoản đang trả.
+	measure 'Current Delinquency Rate' = IF ( [Active Loans] >= 100, DIVIDE ( SUM ( Portfolio_Cube[late_count] ), [Active Loans] ) )
 		formatString: 0.00%
 		displayFolder: Vintage Quality
 		lineageTag: 9de4c571-77f0-4189-8288-9d2be4f0301a
@@ -258,8 +258,8 @@ table Portfolio_Cube
 			    ADDCOLUMNS (
 			        SUMMARIZE (
 			            Portfolio_Cube,
-			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
-			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			            Portfolio_Cube[Loan Grade], Portfolio_Cube[Loan Term], Portfolio_Cube[Loan Purpose],
+			            Portfolio_Cube[FICO Band], Portfolio_Cube[DTI Band]
 			        ),
 			        "@contrib", [Contribution Amount],
 			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
@@ -278,8 +278,8 @@ table Portfolio_Cube
 			    ADDCOLUMNS (
 			        SUMMARIZE (
 			            Portfolio_Cube,
-			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
-			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			            Portfolio_Cube[Loan Grade], Portfolio_Cube[Loan Term], Portfolio_Cube[Loan Purpose],
+			            Portfolio_Cube[FICO Band], Portfolio_Cube[DTI Band]
 			        ),
 			        "@contrib", [Contribution Amount],
 			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
@@ -303,8 +303,8 @@ table Portfolio_Cube
 			    ADDCOLUMNS (
 			        SUMMARIZE (
 			            Portfolio_Cube,
-			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
-			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			            Portfolio_Cube[Loan Grade], Portfolio_Cube[Loan Term], Portfolio_Cube[Loan Purpose],
+			            Portfolio_Cube[FICO Band], Portfolio_Cube[DTI Band]
 			        ),
 			        "@contrib", [Contribution Amount],
 			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
@@ -329,8 +329,8 @@ table Portfolio_Cube
 			    ADDCOLUMNS (
 			        SUMMARIZE (
 			            Portfolio_Cube,
-			            Portfolio_Cube[grade], Portfolio_Cube[term], Portfolio_Cube[purpose],
-			            Portfolio_Cube[fico_band], Portfolio_Cube[dti_band]
+			            Portfolio_Cube[Loan Grade], Portfolio_Cube[Loan Term], Portfolio_Cube[Loan Purpose],
+			            Portfolio_Cube[FICO Band], Portfolio_Cube[DTI Band]
 			        ),
 			        "@contrib", [Contribution Amount],
 			        "@rate", [Risk-Adjusted Contribution Rate Proxy],
@@ -343,52 +343,60 @@ table Portfolio_Cube
 		displayFolder: Action
 		lineageTag: 187fc7bd-309e-4e13-bf93-d274df317bb9
 
-	column vintage_year
+	column 'Vintage Year'
 		dataType: int64
 		formatString: 0
 		lineageTag: 5c8dbb3c-ca5a-4346-bda6-823fdd10edd2
 		summarizeBy: none
-		sourceColumn: vintage_year
+		sourceColumn: Vintage Year
 
-	column grade
+	column 'Loan Grade'
 		dataType: string
 		lineageTag: c13092ef-4a3d-4bea-8edd-c7fa49b9d12c
-		sourceColumn: grade
+		sourceColumn: Loan Grade
 
-	column term
+	column 'Loan Term'
 		dataType: string
 		lineageTag: 1c7acb47-f347-4b07-86bf-99916a0f6f6f
-		sourceColumn: term
+		sourceColumn: Loan Term
 
-	column purpose
+	column 'Loan Purpose'
 		dataType: string
 		lineageTag: cc03395d-8097-4461-9bd6-c0b1ef793089
-		sourceColumn: purpose
+		sourceColumn: Loan Purpose
 
-	column fico_band
+	column 'FICO Band'
 		dataType: string
 		lineageTag: 40e80e30-e79d-4cc5-a383-80e38b85fead
-		sourceColumn: fico_band
+		sourceColumn: FICO Band
 
-	column dti_band
+	column 'DTI Band'
 		dataType: string
 		lineageTag: c0a06b2f-1f49-4d9d-b004-5f27bcceffae
-		sourceColumn: dti_band
+		sourceColumn: DTI Band
 
-	column application_type
+	column 'Application Type'
 		dataType: string
 		lineageTag: 7d27413f-a030-4a39-8268-ddff85ceac07
-		sourceColumn: application_type
+		sourceColumn: Application Type
 
-	column home_ownership
+	column 'Home Ownership'
 		dataType: string
 		lineageTag: 0e379d3e-9487-428e-b3d5-8a8c03e4d1f6
-		sourceColumn: home_ownership
+		sourceColumn: Home Ownership
 
-	column income_band
+	column 'Income Band'
 		dataType: string
 		lineageTag: 483928f3-5870-417e-9471-a44319ae3e39
-		sourceColumn: income_band
+		sourceColumn: Income Band
+		sortByColumn: 'Income Band Sort'
+
+	column 'Income Band Sort'
+		dataType: int64
+		isHidden
+		lineageTag: 97d2919b-88fd-4333-a2a6-78fab8c409a1
+		summarizeBy: none
+		sourceColumn: Income Band Sort
 
 	column loan_count
 		dataType: int64
@@ -624,7 +632,28 @@ table Portfolio_Cube
 				            {"matured_interest", type number}
 				        },
 				        "en-US"
+				    ),
+				    Renamed = Table.RenameColumns(
+				        ChangedType,
+				        {
+				            {"vintage_year", "Vintage Year"},
+				            {"grade", "Loan Grade"},
+				            {"term", "Loan Term"},
+				            {"purpose", "Loan Purpose"},
+				            {"fico_band", "FICO Band"},
+				            {"dti_band", "DTI Band"},
+				            {"application_type", "Application Type"},
+				            {"home_ownership", "Home Ownership"},
+				            {"income_band", "Income Band"}
+				        }
+				    ),
+				    IncomeOrder = {"<40K", "40–59K", "60–79K", "80–99K", "100–149K", "150K+"},
+				    AddedIncomeSort = Table.AddColumn(
+				        Renamed,
+				        "Income Band Sort",
+				        each let pos = List.PositionOf(IncomeOrder, [Income Band]) in if pos < 0 then 99 else pos,
+				        Int64.Type
 				    )
 				in
-				    ChangedType
+				    AddedIncomeSort
 
